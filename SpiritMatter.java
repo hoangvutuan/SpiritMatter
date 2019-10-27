@@ -1,5 +1,7 @@
 import java.util.Set;
 import java.util.HashSet;
+import java.util.Date;
+
 
 public class SpiritMatter {
     public static class Spirit {
@@ -10,6 +12,25 @@ public class SpiritMatter {
             }
         }
     }
+
+    public static class Matter {
+        int n = 7;
+        Spirit[][] matter = new Spirit[n][n];
+        public Matter() {
+
+        }
+
+    }
+
+    public static class History {
+        Matter[][] matters = new Matter[7][7];
+        Date startDate;
+        Date endDate;
+        public History() {
+
+        }
+    }
+
     private static Spirit[] joinRandom(Spirit[] arr) {
         Spirit[] res = new Spirit[7];
         return res;
