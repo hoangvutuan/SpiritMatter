@@ -46,6 +46,8 @@ public class SpiritMatter {
                 "MotherTeresa", "Hitler", "BillGate", "Laozi", "Maharishi", "BillGate","WarrenBuffet"};
         String[] spiritFactorsArr = new String[] {"Money", "Fame", "Power", "Love", "Sex", "Politic", "Goal1", "Goal2"};
         String[] spiritPureConsicousnessArr = new String[] {"Happy", "Foriveness", "Love"};
+        String[] spiritPhylosophyArr = new String[] {"Aristos", "Thoma", "Plato", "Vedanta", "Bible", "Zohar", "Yogananda", "Karl Marx"};
+        Spirit spiritPhylosophies = new Spirit(spiritPhylosophyArr);
         Spirit  spiritAffectedPeople = new Spirit(spiritAffectedPeopleArr);
         Spirit  spiritFactors = new Spirit(spiritFactorsArr);
         Spirit spiritTrauma = new Spirit(spiritTraumaArr);
