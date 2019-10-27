@@ -5,6 +5,9 @@ import java.util.Date;
 
 public class SpiritMatter {
     public static class Spirit {
+
+        Matter[][] spiritMatrix = new Matter[7][7];
+
         Set<String> spirits = new HashSet<>();
         public Spirit(String[] arr) {
             for (String str : arr) {
@@ -21,6 +24,7 @@ public class SpiritMatter {
         }
 
     }
+
 
     public static class History {
         Matter[][] matters = new Matter[7][7];
