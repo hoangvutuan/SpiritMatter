@@ -79,7 +79,7 @@ public class SortAndFillDiagonal {
 
     private static void fillDiagonal(int row, int col, int row1, int col1, int[] count, int[] arr, int[][] matrix) {
         int c = count[0];
-        // code in the comment   is wrong, becarefull in another problem.
+        // code in the comment is wrong, becarefull in another problem.
         /*
         for (int i = row; i >= row1; i--) {
             for (int j = col; j <= col1; j++) {
